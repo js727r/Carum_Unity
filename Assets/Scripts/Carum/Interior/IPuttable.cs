@@ -7,6 +7,6 @@ namespace Carum.Interior
         public void Put(Vector3 position);
         public void Move(Vector3 position);
         public void Rotate(Vector3 rotationVector);
-        public bool SetPutMode(bool mode);
+        public void SetOutline(bool active);
     }
 }

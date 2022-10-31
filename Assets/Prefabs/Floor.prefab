@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2176729070241137501}
   - component: {fileID: 2176729070241137498}
   - component: {fileID: 6113352482643475459}
+  - component: {fileID: 1195608660208000897}
   m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
@@ -111,4 +112,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d803a10ca0f1406409a27d5c36cca961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resource: 
+--- !u!114 &1195608660208000897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2176729070241137499}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0.75, g: 1, b: 0.57, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []

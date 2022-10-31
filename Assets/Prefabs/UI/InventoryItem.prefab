@@ -148,6 +148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resource: interiors1/Backyard_Bench
+  image: {fileID: 8316450911936480633}
+  tmPro: {fileID: 8316450912621202217}
 --- !u!1 &8316450912621202215
 GameObject:
   m_ObjectHideFlags: 0
